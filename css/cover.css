@@ -27,8 +27,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("../pic/backgroud.jpg");
+  width: 100%;
+  /*background-color: #333;*/
+  background-image: url("../pic/bpic.jpg");
+  background-position: center;      /* center the image */
+  background-size: cover;
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -54,19 +59,19 @@ body {
 }
 
 /* Padding for spacing */
-.inner {
+/*.inner {
   padding: 30px;
-}
+
+}*/
 
 
 /*
  * Header
  */
-.masthead-brand {
+/*.masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .masthead-nav > li {
   display: inline-block;
 }
@@ -79,7 +84,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+ /* color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -94,6 +99,7 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+*/
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -122,11 +128,10 @@ body {
  * Footer
  */
 
-.mastfoot {
-  color: #999; /* IE8 proofing */
+/*.mastfoot {
+  color: #999;
   color: rgba(255,255,255,.5);
-}
-
+}  */
 
 /*
  * Affix and center
